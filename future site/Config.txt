@@ -1,15 +1,15 @@
-Запускал через XAMPP
+п»їР—Р°РїСѓСЃРєР°Р» С‡РµСЂРµР· XAMPP
 
-в my.ini добавил 
+РІ my.ini РґРѕР±Р°РІРёР» 
 [client] 
 default-character-set = utf8
 
 [mysqld]
 character-set-server = utf8
 
-база данных comments, таблица comments
+Р±Р°Р·Р° РґР°РЅРЅС‹С… comments, С‚Р°Р±Р»РёС†Р° comments
 
-пользователь базы данных 
+РїРѕР»СЊР·РѕРІР°С‚РµР»СЊ Р±Р°Р·С‹ РґР°РЅРЅС‹С… 
 GRANT ALL ON comments. * TO 'future'@'localhost' IDENTIFIED BY 'password';
 
 user = future
