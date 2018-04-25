@@ -1,0 +1,16 @@
+Запускал через XAMPP
+
+в my.ini добавил 
+[client] 
+default-character-set = utf8
+
+[mysqld]
+character-set-server = utf8
+
+база данных comments, таблица comments
+
+пользователь базы данных 
+GRANT ALL ON comments. * TO 'future'@'localhost' IDENTIFIED BY 'password';
+
+user = future
+password = password
